@@ -7,6 +7,11 @@
     <title>Passport Login System</title>
 </head>
 <body>
-    <h1>Index.ejs</h1>
+    <h1>Hi <%= name %> </h1>
+    <form action="/logout?_method=DELETE" method="POST">
+        <div>
+            <button type="submit">Log Out</button>
+        </div>
+    </form>
 </body>
 </html>
